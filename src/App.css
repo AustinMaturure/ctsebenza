@@ -6,6 +6,36 @@
   background-position: center;
 }
 
+.hero-bg-text{
+
+    background-image: url('/src/assets/hero-1.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+ 
+}
+.hero-bg-text-1{
+
+  background-image: url('/src/assets/pexels-clickerhappy-38070.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+
+}
+.cutout{
+  box-shadow: -10px 10px var(--color-blue-400);
+}
+.hero-bg-text::before, .hero-bg-text-1::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-2xl);
+  background: rgba(0, 0, 0, 0.5); /* Adjust darkness here */
+  z-index: 1;
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -13,3 +43,4 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
