@@ -10,11 +10,11 @@ export default function Navbar() {
       
         <div className="flex items-center text-white md:text-neutral-900">
           <img src={logo} alt="ctsebenza-logo" className="object-cover w-10" />
-          <h1 className="font-bold ml-2">Ct Sebenza</h1>
+          <h1 className="font-bold ml-2 dark:text-white">Ct Sebenza</h1>
         </div>
 
      
-        <nav className="hidden md:flex gap-6 text-white md:text-neutral-900">
+        <nav className="hidden md:flex gap-6 text-white md:text-neutral-900 dark:text-white">
           <a href="#home" className="hover:text-amber-300">Home</a>
           <a href="#services" className="hover:text-amber-300">Services</a>
           <a href="#about" className="hover:text-amber-300">About</a>

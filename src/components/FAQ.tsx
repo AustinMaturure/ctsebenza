@@ -55,7 +55,7 @@ export default function FAQ() {
                   isOpen ? "max-h-[1000px]" : "max-h-0"
                 }`}
               >
-                <p className="mt-4 text-gray-700">{faq.answer}</p>
+                <p className="mt-4 text-gray-700 dark:bg-gray-700 dark:text-white dark:p-3 dark:rounded-2xl">{faq.answer}</p>
               </div>
               
             </div>

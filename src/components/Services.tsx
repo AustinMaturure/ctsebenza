@@ -57,12 +57,12 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section className="bg-neutral-100 md:p-10 p-6 "  id="services">
+    <section className="bg-neutral-100 md:p-10 p-6  "  id="services">
       <div className="flex flex-col gap-6 ">
 
         <div className="flex justify-between items-center flex-wrap gap-4">
           <div>
-            <h1 className="text-5xl font-bold">Our Services</h1>
+            <h1 className="text-5xl font-bold dark:text-gray-700">Our Services</h1>
             <h2 className="text-gray-700 text-xl">
               We provide a wide range of services, and excel in each and every one.
             </h2>
@@ -98,7 +98,7 @@ const Services: React.FC = () => {
               <div className="w-full h-50 bg-gray-300 rounded  mb-2 flex items-center justify-center text-sm text-gray-600">
                 <img className="rounded object-cover h-full" src={seriveImages[index]} alt="" />
               </div>
-              <h3 className="text-3xl  font-bold mb-2">{service.title}</h3>
+              <h3 className="text-3xl  font-bold mb-2 dark:text-gray-700">{service.title}</h3>
               <p className="text-gray-600 text-md">{service.text}</p>
             </div>
           ))}</Fade>
