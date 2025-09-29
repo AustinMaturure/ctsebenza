@@ -1,5 +1,4 @@
 
-import { useInView } from 'react-intersection-observer';
 import { Fade } from "react-awesome-reveal";
 
 export default function Banner(){
