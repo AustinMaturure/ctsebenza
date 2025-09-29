@@ -3,7 +3,7 @@ import teamImg from "../assets/team.jpg"
 
 export default function About(){
     const text = "CT Sebenza (Pty) Ltd, established in 2020 by experienced and driven individuals, is committed to delivering high-quality services that meet the needs of both clients and the community. With a focus on excellence, timely service delivery, and community empowerment, the company aims to create sustainable job opportunities, especially for the youth. CT Sebenza values integrity, results-driven solutions, effective communication, and client satisfaction. Through skilled workers and a strong development plan, including aftercare and project monitoring, the company strives to improve service standards and make a lasting impact in the service industry."
-    const services = text.split(" ");
+    const _services = text.split(" ");
     const team = "At CT Sebenza, our passionate and diverse team is driven by excellence, innovation, and a shared vision for growth. We invest in our employees' development and foster a collaborative, inclusive culture where every member thrives. Our commitment to integrity, professionalism, and client satisfaction helps us build lasting relationships and deliver tailored, high-quality solutions.";
 
     return(
