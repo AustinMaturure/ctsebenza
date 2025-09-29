@@ -1,5 +1,5 @@
 import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
-import logo from "../assets/logo.webp"
+import _logo from "../assets/logo.webp"
 export default function Hero(){
     return(
         <>
