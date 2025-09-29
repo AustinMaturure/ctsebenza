@@ -57,7 +57,7 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section className="bg-neutral-100 p-10 sm:p-0 "  id="services">
+    <section className="bg-neutral-100 md:p-10 p-6 "  id="services">
       <div className="flex flex-col gap-6 ">
 
         <div className="flex justify-between items-center flex-wrap gap-4">

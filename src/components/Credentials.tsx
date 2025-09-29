@@ -12,11 +12,12 @@ export default function Credentials(){
       <section className='overflow-hidden'>
         <div className='flex flex-col md:flex-row p-10 overflow-hidden'>
         <Fade >
-          <div className='p-1'> 
+          <div className='p-1 mb-6 md:mb-0'> 
             <h1 className='text-3xl'>
-              Your Trusted Partner in Quality Services  
-              Delivering Tailored Solutions That Meet Your Needs  
-              Elevating Everyday Spaces with Craftsmanship and Care
+              Your Trusted Partner in Quality Services...
+
+              Delivering Tailored Solutions that Meet your Needs,  
+              Elevating Everyday Spaces with Craftsmanship and Care.
             </h1>  
           </div>
        </Fade>
@@ -24,7 +25,7 @@ export default function Credentials(){
           <div>
             <h2>
               Empowering Homes and Businesses with Reliable Construction, Plumbing, and Electrical Solutions  
-              Through Skilled Teams, Proven Integrity, and a Vision for Sustainable Growth That Lasts
+              Through Skilled Teams, Proven Integrity, and a Vision for Sustainable Growth That Lasts.
             </h2>
           </div>
         </Fade> </div>

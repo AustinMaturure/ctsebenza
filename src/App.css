@@ -36,6 +36,13 @@
   z-index: 1;
 }
 
+@media (max-width: 640px) {
+  .hero-bg-text::before,
+  .hero-bg-text-1::before {
+    border-radius: 0;
+  }
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
