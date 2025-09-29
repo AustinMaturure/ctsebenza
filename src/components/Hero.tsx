@@ -1,4 +1,4 @@
-import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
+import heroimg from '../assets/pexels-clickerhappy-38070.webp'
 import _logo from "../assets/logo.webp"
 export default function Hero(){
     return(
@@ -8,7 +8,8 @@ export default function Hero(){
 <div className="h-full w-full gap-4 pt-0 md:pl-6 md:pr-6 md:pb-10 flex flex-col md:flex-row">
 
 
-    <div className="md:w-1/2 bg-[#94A58D] rounded-2xl z-10 p-6 flex flex-col  justify-center hero-bg-text h-full">
+<div className="md:w-1/2 bg-[#94A58D] md:rounded-2xl z-10 p-6 flex flex-col justify-center hero-bg-text h-full sm:rounded-none">
+
       <div className='text-white z-20' >
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold mb-4 text-left">
           Expert Construction, Plumbing, Electrical, Kitchen and General Solutions.
@@ -20,7 +21,7 @@ export default function Hero(){
      
     </div> 
     <div className="hidden md:block md:w-1/2 h-full relative">
-  <img src={heroimg} alt="" className="h-full object-cover rounded-2xl" />
+  <img src={heroimg} alt="" className="h-full object-cover rounded-2xl sm:rounded-none" />
 </div>
 
   </div>

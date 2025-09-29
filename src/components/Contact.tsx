@@ -1,5 +1,5 @@
 import { Fade } from "react-awesome-reveal";
-import smiling from "../assets/pexels-laualessia-20814721.jpg"
+import smiling from "../assets/pexels-laualessia-20814721.webp"
 
 export default function Contact(){
     
@@ -8,7 +8,7 @@ export default function Contact(){
         <section id="contact">
             
             <div className="flex flex-col md:flex-row bg-neutral-900 p-6 justify-between"><Fade>
-                <div className="">
+                <div className="mb-4 md:mb-0">
                     <h1 className="text-white text-6xl mb-2">We'd <i>Love</i> to hear about your Project</h1>
                     <div>
 

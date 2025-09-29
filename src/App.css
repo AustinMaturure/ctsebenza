@@ -1,14 +1,14 @@
 
 /* index.css */
 .hero-bg {
-  background-image: url('/src/assets/pexels-rezwan-1216544.jpg');
+  background-image: url('/src/assets/pexels-rezwan-1216544.webp');
   background-size: cover;
   background-position: center;
 }
 
 .hero-bg-text{
 
-    background-image: url('/src/assets/hero-1.jpeg');
+    background-image: url('/src/assets/hero-1-min.webp');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -17,7 +17,7 @@
 }
 .hero-bg-text-1{
 
-  background-image: url('/src/assets/pexels-clickerhappy-38070.jpg');
+  background-image: url('/src/assets/pexels-clickerhappy-38070.webp');
   background-size: cover;
   background-position: center;
   position: relative;

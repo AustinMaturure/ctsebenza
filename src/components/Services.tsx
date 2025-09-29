@@ -6,8 +6,8 @@ import kitchen from "../assets/kitchen.webp"
 import maintenance from "../assets/maintenance.webp"
 import pumps from "../assets/pumps.webp"
 import aircon from "../assets/aircon.jpg"
-import construction from "../assets/construction.jpg"
-import plumbing from "../assets/plumbing.jpg"
+import construction from "../assets/construction.webp"
+import plumbing from "../assets/plumbing.webp"
 import { Fade } from "react-awesome-reveal";
 interface Service {
   title: string;
@@ -57,8 +57,8 @@ const Services: React.FC = () => {
   };
 
   return (
-    <section className="bg-neutral-100 p-10"  id="services">
-      <div className="flex flex-col gap-6">
+    <section className="bg-neutral-100 p-10 sm:p-0 "  id="services">
+      <div className="flex flex-col gap-6 ">
 
         <div className="flex justify-between items-center flex-wrap gap-4">
           <div>
