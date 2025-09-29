@@ -1,7 +1,6 @@
 import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
 import logo from "../assets/logo.webp"
 import CountUp from 'react-countup';
-import { useInView } from 'react-intersection-observer';
 import { Fade } from "react-awesome-reveal";
 
 export default function Credentials(){
