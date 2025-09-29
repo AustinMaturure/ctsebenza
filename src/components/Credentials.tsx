@@ -1,6 +1,7 @@
-import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
+
 import CountUp from 'react-countup';
 import { Fade } from "react-awesome-reveal";
+import { useInView } from "react-intersection-observer"; 
 
 export default function Credentials(){
   const [ref, inView] = useInView({ triggerOnce: true });
