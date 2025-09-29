@@ -1,11 +1,9 @@
-import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
-import roof from "../assets/roof.jpg"
-import CountUp from 'react-countup';
+
 import { useInView } from 'react-intersection-observer';
 import { Fade } from "react-awesome-reveal";
 
 export default function Banner(){
-  const [ref, inView] = useInView({ triggerOnce: true });
+ 
 
   return (
     <section className='w-full bg-neutral-900 text-blue-400'>
