@@ -11,9 +11,9 @@ export default function About(){
 
 
   <div className="md:p-10 text-center">
-    <h1 className="text-4xl font-bold">Enough about <i>What</i> we do, Who are we?</h1>
+    <h1 className="text-4xl font-bold mb-4 md:mb-0">Enough about <i>What</i> we do, Who are we?</h1>
     <Fade fraction={0.2}>
-      <h2 className="text-xl md:text-2xl p-4 md:p-6 md:leading-10 text-left md:text-center">{text}</h2>
+      <h2 className="text-xl md:text-2xl md:p-6 md:leading-10 text-left md:text-center">{text}</h2>
     </Fade>
   </div>
 
