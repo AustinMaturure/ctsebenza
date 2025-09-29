@@ -11,7 +11,7 @@ export default function Hero(){
 <div className="md:w-1/2 bg-[#94A58D] md:rounded-2xl z-10 p-6 flex flex-col justify-center hero-bg-text h-full sm:rounded-none">
 
       <div className='text-white z-20' >
-        <h1 className="text-5xl md:text-3xl lg:text-4xl xl:text-6xl font-bold mb-4 text-left">
+        <h1 className="text-4xl md:text-3xl lg:text-4xl xl:text-6xl font-bold mb-4 text-left">
           Expert Construction, Plumbing, Electrical, Kitchen and General Solutions.
         </h1>
         <p className="text-left text-xl md:text-lg">

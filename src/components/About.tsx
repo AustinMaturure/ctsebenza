@@ -13,7 +13,7 @@ export default function About(){
   <div className="md:p-10 text-center">
     <h1 className="text-4xl font-bold">Enough about <i>What</i> we do, Who are we?</h1>
     <Fade fraction={0.2}>
-      <h2 className="text-xl md:text-2xl p-4 md:p-6 md:leading-10">{text}</h2>
+      <h2 className="text-xl md:text-2xl p-4 md:p-6 md:leading-10 text-left md:text-center">{text}</h2>
     </Fade>
   </div>
 
@@ -22,7 +22,7 @@ export default function About(){
     <div className="md:w-1/2 md:sticky top-10 self-start mt-10 md:mt-0">
       <h1 className="text-4xl text-center md:text-left font-bold mb-4 md:mb-0"><i>Who</i> will you be working with?</h1>
       <Fade fraction={0.1}>
-        <h2 className="mb-4 md:mb-0 text-xl text-center md:pt-6 md:pr-6 pl-0 md:text-left">{team}</h2>
+        <h2 className="mb-4 md:mb-0 text-xl text-left md:text-center md:pt-6 md:pr-6 pl-0 md:text-left">{team}</h2>
       </Fade>
     </div>
 
