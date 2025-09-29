@@ -1,5 +1,4 @@
 import heroimg from '../assets/pexels-clickerhappy-38070.jpg'
-import logo from "../assets/logo.webp"
 import CountUp from 'react-countup';
 import { Fade } from "react-awesome-reveal";
 
