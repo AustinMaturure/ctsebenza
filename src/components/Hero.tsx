@@ -20,8 +20,8 @@ export default function Hero(){
       </div>
      
     </div> 
-    <div className="hidden md:block md:w-1/2 h-full relative">
-  <img src={heroimg} alt="" className="h-full object-cover rounded-2xl sm:rounded-none" />
+    <div className="hidden md:block md:w-1/2 h-full relative rounded-2xl">
+  <img src={heroimg} alt="" className="h-full object-cover rounded-2xl " />
 </div>
 
   </div>

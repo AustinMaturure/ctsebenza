@@ -12,7 +12,7 @@ export default function Credentials(){
       <section className='overflow-hidden'>
         <div className='flex flex-col md:flex-row p-7 md:p-10 overflow-hidden'>
         <Fade >
-          <div className='p-1 mb-6 md:mb-0'> 
+          <div className='p-2 mb-6 md:mb-0'> 
             <h1 className='text-3xl'>
               Your Trusted Partner in Quality Services...
 

@@ -37,8 +37,7 @@
 }
 
 @media (max-width: 640px) {
-  .hero-bg-text::before,
-  .hero-bg-text-1::before {
+  .hero-bg-text::before{
     border-radius: 0;
   }
 }

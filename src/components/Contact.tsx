@@ -31,7 +31,7 @@ export default function Contact(){
                 </Fade>
                 <Fade>
                 <div className="flex gap-2"> 
-                    <img  src={smiling}  alt="" className="h-96 object-cover"/>
+                    <img  src={smiling}  alt="" className="h-96 object-cover rounded-2xl"/>
                 </div></Fade>
               
                

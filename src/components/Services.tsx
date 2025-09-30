@@ -93,13 +93,15 @@ const Services: React.FC = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="min-w-[320px] max-w-xs flex-shrink-0 bg-white rounded-xl  p-5 snap-start"
+              className="min-w-[320px] min-h-full  max-w-xs flex-shrink-0 bg-white rounded-xl  p-5 snap-start"
             >
-              <div className="w-full h-50 bg-gray-300 rounded  mb-2 flex items-center justify-center text-sm text-gray-600">
+              <div className="w-full min-h-full bg-gray-300 rounded  mb-2 flex items-center justify-center text-sm text-gray-600">
                 <img className="rounded object-cover h-full" src={seriveImages[index]} alt="" />
               </div>
+              <div>
               <h3 className="text-3xl  font-bold mb-2 dark:text-gray-700">{service.title}</h3>
               <p className="text-gray-600 text-md">{service.text}</p>
+              </div>
             </div>
           ))}</Fade>
         </div>
